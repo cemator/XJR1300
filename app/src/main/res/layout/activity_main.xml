@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.seweryn.xjr1300card.MainActivity"
+
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:src="@drawable/xjr1300"
+        android:scaleType="center"/>
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations Piotr"
+        android:textSize="33sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="20sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/congratulationstext"
+        />
+
+    <TextView
+        android:layout_alignParentLeft="true"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="for buying"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="10sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/congratulationstext"
+        android:id="@+id/buyingtext"
+        />
+
+    <TextView
+        android:layout_alignParentLeft="true"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="a..."
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="10sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/buyingtext"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:textSize="60sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:padding="20sp"
+        android:text="XJR 1300" />
+</RelativeLayout>
+
+
+
+
+
